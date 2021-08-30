@@ -1,0 +1,80 @@
+/* Header Css */
+.top-header{
+    background-color: #FFB317;
+}
+.top-social{
+    padding-left: 40px;
+}
+.top-social a{
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.top-social a:hover{
+    color: rgb(216, 216, 216);
+}
+.network span{
+    color: rgb(255, 255, 255);
+}
+.account img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* Custom input Field */
+.form-control:focus {
+    border-color: #FFB317;
+    box-shadow: none;
+}
+/* Custom Button */
+.btn-warning:hover {
+    background-color: #FFB317;
+    border-color: #FFB317;
+}
+.btn-check:focus+.btn-warning, .btn-warning:focus {
+    background-color: #FFB317;
+    border-color: #FFB317;
+    box-shadow: none;
+}
+.btn-check:active+.btn-warning:focus, .btn-check:checked+.btn-warning:focus, .btn-warning.active:focus, .btn-warning:active:focus, .show>.btn-warning.dropdown-toggle:focus {
+    box-shadow: none;
+}
+/* Account */
+.account .dropdown-toggle::after {
+    content: none;
+}
+.account .btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.login-signup a{
+    width: 50%;
+    border: 1px solid #FFB317;
+    margin: 2px;
+    font-size: 14px;
+}
+.login-signup .login{
+    background-color: #FFB317;
+    color: white;
+}
+.login-signup .login:hover{
+    background-color: white;
+    color: rgb(37, 37, 37);
+}
+.login-signup .signup:hover{
+    background-color: #FFB317;
+    color: white;
+}
+.account i{
+    margin-right: 10px;
+}
+.account-card > a{
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+}
+.account-card > a:hover{
+    color: #FFB317;
+}
