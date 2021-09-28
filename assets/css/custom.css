@@ -78,3 +78,35 @@
 .account-card > a:hover{
     color: #FFB317;
 }
+
+
+
+/* Matrials Start */
+.body{
+    padding-top: 30px;
+}
+.matrials .title{
+    max-width: 900px;
+    margin: auto;
+}
+.materials-body{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.materials-body:hover{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    /* box-shadow: 0 4px 8px 0 rgb(255 179 23 / 20%), 0 6px 20px 0 rgb(255 179 23 / 19%); */
+    transition: 0.3s;
+}
+/* Matrials End */
+
+
+/* Courses Start */
+.course-item:hover{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition: 0.3s;
+}
+/* Courses End  */

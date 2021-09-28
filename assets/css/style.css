@@ -1,19 +1,52 @@
 /**
-* Template Name: Mentor - v4.3.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: Mashtor
+* Template URL: https://mashtor.com
+* Author: womenindigital.net
+* License: https://womenindigital.net/license/
 */
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+/* 
+
+  Font Family
+  font-family: AvenirNextLTPro-Medium;
+  font-family: AvenirNextLTPro-Medium;
+  font-family: AvenirNextLTPro-Demi;
+
+*/
+
+@import url("../fonts/stylesheet.css");
+@import url("../fonts/all.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+@font-face {
+  font-family: AvenirNextLTPro-Medium;
+  src: url("../fonts/WEB/AvenirNextLTPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirNextLTPro-Medium;
+  src: url("../fonts/WEB/AvenirNextLTPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirNextLTPro-Demi;
+  src: url("../fonts/WEB/AvenirNextLTPro-Demi.otf") format("opentype");
+}
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 *{
   padding: 0;
   margin: 0;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   color: #444444;
 }
 p{
@@ -32,7 +65,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
 }
 
 /*--------------------------------------------------------------
@@ -143,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
 }
 
 #header .logo a {
@@ -208,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   font-size: 15px;
   font-weight: 500;
   color: #37423b;
@@ -247,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
+  padding: 6px 20px;
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
@@ -424,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
 }
 
 #hero h2 {
@@ -434,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -497,7 +530,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
 }
 
 .section-title h2::after {
@@ -515,7 +548,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   color: #37423b;
 }
 
@@ -562,7 +595,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   font-size: 15px;
   font-weight: 600;
   color: #37423b;
@@ -654,82 +687,64 @@ section {
   font-size: 18px;
   color: #37423b;
 }
-
-.courses .trainer {
+.courses .course-rank{
   padding-top: 10px;
   border-top: 1px solid #eef0ef;
 }
 
-.courses .trainer .trainer-profile img {
-  max-width: 50px;
-  border-radius: 50px;
-}
-
-.courses .trainer .trainer-profile span {
-  padding-left: 10px;
-  font-weight: 600;
-  font-size: 16px;
-  color: #5a6c60;
-}
-
-.courses .trainer .trainer-rank {
-  font-size: 18px;
-  color: #657a6d;
-}
 
 /*--------------------------------------------------------------
-# Trainers
+# Our Mashtors
 --------------------------------------------------------------*/
-.trainers .member {
-  text-align: center;
-  margin-bottom: 20px;
-  background: #fff;
+.our-mashtor .mashtor-item {
+  border-radius: 5px;
   border: 1px solid #eef0ef;
 }
 
-.trainers .member img {
-  margin: -1px -1px 30px -1px;
+.our-mashtor .mashtor-content {
+  padding: 15px;
 }
 
-.trainers .member .member-content {
-  padding: 0 20px 30px 20px;
-}
-
-.trainers .member h4 {
+.our-mashtor .mashtor-content h3 {
   font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.trainers .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
 
-.trainers .member p {
-  padding-top: 10px;
+.our-mashtor .mashtor-content p {
   font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
+  color: #777777;
+  padding-bottom: 10px;
 }
 
-.trainers .member .social {
-  margin-top: 15px;
-}
-
-.trainers .member .social a {
-  color: #7e9486;
-  transition: 0.3s;
-}
-
-.trainers .member .social a:hover {
-  color: #FFB317;
-}
-
-.trainers .member .social i {
+.our-mashtor .mashtor-content .price {
+  margin: 0;
+  font-weight: 700;
   font-size: 18px;
-  margin: 0 2px;
+  color: #37423b;
+}
+
+.our-mashtor .trainer {
+  padding-top: 10px;
+  border-top: 1px solid #eef0ef;
+}
+.our-mashtor .trainer .trainer-rank {
+  font-size: 14px;
+  color: #657a6d;
+}
+.mashtor-item img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.mashtor-content h4{
+  font-size: 17px;
+}
+.mashtor-content h5{
+  font-size: 14px;
+}
+.mashtor-item .active{
+  color: #FFB317;
 }
 
 /*--------------------------------------------------------------
@@ -867,7 +882,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
 }
 
 .course-details .course-info p {
@@ -1041,7 +1056,7 @@ section {
   font-size: 36px;
   color: #FFB317;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   margin-bottom: 20px;
 }
 
@@ -1097,7 +1112,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1285,7 +1300,6 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f9faf9;
 }
 
 #footer .footer-top .footer-contact {
@@ -1304,7 +1318,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: AvenirNextLTPro-Medium;
   color: #777777;
 }
 
