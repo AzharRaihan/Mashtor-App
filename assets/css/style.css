@@ -645,11 +645,14 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
-  border: 1px solid #eef0ef;
 }
-
 .courses .course-content {
   padding: 15px;
+  border: 1px solid #dddddd;
+}
+.courses .course-content:hover{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transition: 0.3s;
 }
 
 .courses .course-content h3 {
@@ -689,7 +692,7 @@ section {
 }
 .courses .course-rank{
   padding-top: 10px;
-  border-top: 1px solid #eef0ef;
+  border-top: 1px solid #dddddd;
 }
 
 
@@ -698,19 +701,19 @@ section {
 --------------------------------------------------------------*/
 .our-mashtor .mashtor-item {
   border-radius: 5px;
-  border: 1px solid #eef0ef;
 }
-
-.our-mashtor .mashtor-content {
+.our-mashtor .mashtor-content{
+  border: 1px solid #dddddd;
   padding: 15px;
 }
-
+.our-mashtor .mashtor-content:hover{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transition: 0.3s;
+}
 .our-mashtor .mashtor-content h3 {
   font-weight: 700;
   font-size: 16px;
 }
-
-
 .our-mashtor .mashtor-content p {
   font-size: 14px;
   color: #777777;
@@ -726,7 +729,6 @@ section {
 
 .our-mashtor .trainer {
   padding-top: 10px;
-  border-top: 1px solid #eef0ef;
 }
 .our-mashtor .trainer .trainer-rank {
   font-size: 14px;
@@ -738,7 +740,7 @@ section {
   object-fit: cover;
 }
 .mashtor-content h4{
-  font-size: 17px;
+  font-size: 18px;
 }
 .mashtor-content h5{
   font-size: 14px;
