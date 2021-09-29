@@ -102,3 +102,45 @@
     transition: 0.3s;
 }
 /* Matrials End */
+
+
+
+/* Language Start */
+.language i{
+    color: #FFB317;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.language ul li{
+    list-style-type: none;
+    display: flex;
+    padding: 6px 0px;
+}
+.language h5{
+    text-align: center;
+    background: #FFB317;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ln-bd{
+    background-image: url(../img/language/1.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.ln-japan{
+    background-image: url(../img/language/2.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.ln-bd .ln-chield{
+    padding: 60px 15px;
+}
+.ln-japan .ln-chield{
+    padding: 60px 15px 60px 20px;
+}
+/* Language Start End */
