@@ -1,6 +1,6 @@
 /* Header Css */
 .top-header{
-    background-color: #FFB317;
+    background-color: #C2000C;
 }
 .top-social{
     padding-left: 40px;
@@ -27,17 +27,17 @@
 }
 /* Custom input Field */
 .form-control:focus {
-    border-color: #FFB317;
+    border-color: #C2000C;
     box-shadow: none;
 }
 /* Custom Button */
 .btn-warning:hover {
-    background-color: #FFB317;
-    border-color: #FFB317;
+    background-color: #C2000C;
+    border-color: #C2000C;
 }
 .btn-check:focus+.btn-warning, .btn-warning:focus {
-    background-color: #FFB317;
-    border-color: #FFB317;
+    background-color: #C2000C;
+    border-color: #C2000C;
     box-shadow: none;
 }
 .btn-check:active+.btn-warning:focus, .btn-check:checked+.btn-warning:focus, .btn-warning.active:focus, .btn-warning:active:focus, .show>.btn-warning.dropdown-toggle:focus {
@@ -52,12 +52,12 @@
 }
 .login-signup a{
     width: 50%;
-    border: 1px solid #FFB317;
+    border: 1px solid #C2000C;
     margin: 2px;
     font-size: 14px;
 }
 .login-signup .login{
-    background-color: #FFB317;
+    background-color: #C2000C;
     color: white;
 }
 .login-signup .login:hover{
@@ -65,7 +65,7 @@
     color: rgb(37, 37, 37);
 }
 .login-signup .signup:hover{
-    background-color: #FFB317;
+    background-color: #C2000C;
     color: white;
 }
 .account i{
@@ -76,7 +76,7 @@
     font-size: 14px;
 }
 .account-card > a:hover{
-    color: #FFB317;
+    color: #C2000C;
 }
 
 
@@ -107,7 +107,7 @@
 
 /* Language Start */
 .language i{
-    color: #FFB317;
+    color: #C2000C;
     margin-right: 10px;
     font-size: 20px;
 
@@ -119,7 +119,7 @@
 }
 .language h5{
     text-align: center;
-    background: #FFB317;
+    background: #C2000C;
     padding: 10px 0px;
     border-radius: 5px;
     color: white;

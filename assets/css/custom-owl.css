@@ -17,7 +17,7 @@
 .OwlCarouselWrap .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     position: absolute;
     display: block;
-    background: #FFB317;
+    background: #C2000C;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -27,13 +27,13 @@
 }
 .OwlCarouselWrap .owl-nav button.owl-prev:hover{
     background: transparent;
-    border: 1px solid #FFB317;
-    color: #FFB317;
+    border: 1px solid #C2000C;
+    color: #C2000C;
 }
 .OwlCarouselWrap .owl-nav button.owl-next:hover{
     background: transparent;
-    border: 1px solid #FFB317;
-    color: #FFB317;
+    border: 1px solid #C2000C;
+    color: #C2000C;
 }
 .owl-dots{
     display: none;

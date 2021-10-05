@@ -4,46 +4,36 @@
 * Author: womenindigital.net
 * License: https://womenindigital.net/license/
 * Logo Color #77090A
-* Old Color #FFB317
-* Old Hover Color #FFB317
+* Old Color #C2000C
+* Old Hover Color #C2000C
 */
-
 /*--------------------------------------------------------------
 # Fonts
 --------------------------------------------------------------*/
 /* 
-
   Font Family
   font-family: AvenirNextLTPro-Medium;
   font-family: AvenirNextLTPro-Medium;
   font-family: AvenirNextLTPro-Demi;
-
 */
-
 @import url("../fonts/stylesheet.css");
 @import url("../fonts/all.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-
 @font-face {
   font-family: AvenirNextLTPro-Medium;
   src: url("../fonts/WEB/AvenirNextLTPro-Medium.otf") format("opentype");
 }
-
 @font-face {
   font-family: AvenirNextLTPro-Medium;
   src: url("../fonts/WEB/AvenirNextLTPro-Medium.otf") format("opentype");
 }
-
 @font-face {
   font-family: AvenirNextLTPro-Demi;
   src: url("../fonts/WEB/AvenirNextLTPro-Demi.otf") format("opentype");
 }
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
 *{
   padding: 0;
   margin: 0;
@@ -56,17 +46,14 @@ p{
   padding: 0;
   margin: 0;
 }
-
 a {
-  color: #FFB317;
+  color: #C2000C;
   text-decoration: none;
 }
-
 a:hover {
-  color: #e49d0e;
+  color: #77090A;
   text-decoration: none;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: AvenirNextLTPro-Medium;
 }
@@ -83,29 +70,25 @@ hr{
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #FFB317;
+  background: #C2000C;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
 }
-
 .back-to-top i {
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
-
 .back-to-top:hover {
-  background: #e49d0e;
+  background: #77090A;
   color: #fff;
 }
-
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -119,13 +102,12 @@ hr{
   overflow: hidden;
   background: #fff;
 }
-
 #preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #FFB317;
+  border: 6px solid #C2000C;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -134,7 +116,6 @@ hr{
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -143,7 +124,6 @@ hr{
     transform: rotate(360deg);
   }
 }
-
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -152,7 +132,6 @@ hr{
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -161,7 +140,6 @@ hr{
     transition-delay: 0 !important;
   }
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -172,7 +150,6 @@ hr{
   padding: 15px 0;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
-
 #header .logo {
   font-size: 30px;
   margin: 0;
@@ -183,21 +160,18 @@ hr{
   text-transform: uppercase;
   font-family: AvenirNextLTPro-Medium;
 }
-
 #header .logo a {
-  color: #FFB317;
+  color: #C2000C;
 }
-
 #header .logo img {
   max-height: 40px;
 }
-
 /**
 * Get Startet Button 
 */
 .get-started-btn {
   margin-left: 22px;
-  background: #FFB317;
+  background: #C2000C;
   color: #fff;
   border-radius: 4px;
   padding: 8px 15px;
@@ -206,19 +180,16 @@ hr{
   font-size: 14px;
   display: inline-block;
 }
-
 .get-started-btn:hover {
-  background: #e49d0e;
+  background: #77090A;
   color: #fff;
 }
-
 @media (max-width: 768px) {
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 6px;
   }
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -256,7 +227,7 @@ hr{
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #FFB317;
+  color: #C2000C;
 }
 .navbar .dropdown ul {
   display: block;
@@ -286,7 +257,7 @@ hr{
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #FFB317;
+  color: #C2000C;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -369,7 +340,7 @@ hr{
   color: #37423b;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #FFB317;
+  color: #C2000C;
 }
 .navbar-mobile .getstarted {
   margin: 15px;
@@ -395,7 +366,7 @@ hr{
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #FFB317;
+  color: #C2000C;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -408,13 +379,13 @@ hr{
   width: 270px;
 }
 .account-card .acc-mng-1{
-  background-color: #FFB317;
-  height: 50px;
+  background-color: #C2000C;
+  height: 80px;
   position: relative;
 }
 .account-card .auth-img{
   position: absolute;
-  top: 46%;
+  top: 68%;
   left: 110px;
 }
 .account-card .acc-mng-2{
@@ -434,12 +405,15 @@ hr{
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.account-card .credentials a:hover{
+  color: #77090A;
+  transition: 0.5s;
+}
 .account-card .notification{
   position: relative;
 }
-
 .account-card .blob {
-  background: #FFB317;
+  background: #C2000C;
   color: rgb(255, 255, 255);
   border-radius: 50%;
   height: 13px;
@@ -451,28 +425,24 @@ hr{
   align-items: center;
   top: -4px;
   left: 8px;
-  box-shadow: 0 0 0 0 rgba(255, 189, 23, 1);
+  box-shadow: 0 0 0 0 rgba(119, 9, 10, 1);
   transform: scale(1);
   animation: pulse 2s infinite;
 }
 @keyframes pulse {
   0% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(255, 189, 23, 0.7);
+    box-shadow: 0 0 0 0 rgba(119, 9, 10, 0.7);
   }
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(255, 189, 23, 0);
+    box-shadow: 0 0 0 10px rgba(119, 9, 10, 0);
   }
   100% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(255, 189, 23, 0);
+    box-shadow: 0 0 0 0 rgba(119, 9, 10, 0);
   }
 }
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -499,7 +469,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #FFB317;
+  background: #C2000C;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -516,7 +486,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #FFB317;
+  background: #C2000C;
   padding: 30px 0;
   color: #fff;
 }
@@ -542,7 +512,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #FFB317;
+  color: #C2000C;
   font-weight: 700;
 }
 .counts .counters p {
@@ -572,7 +542,7 @@ section {
   transition: 0.3s;
 }
 .courses .course-content h3 a:hover {
-  color: #FFB317;
+  color: #C2000C;
 }
 .courses .course-content p {
   font-size: 14px;
@@ -581,12 +551,16 @@ section {
 }
 .courses .course-content .enroll {
   font-size: 14px;
-  background: #FFB317;
+  background: #C2000C;
   padding: 4px 10px;
   border-radius: 3px;
   color: #fff;
   margin: 0;
 }
+.courses .course-content .enroll:hover {
+  background: #77090A;
+}
+
 .courses .course-content .price {
   margin: 0;
   font-weight: 700;
@@ -647,7 +621,7 @@ section {
   font-size: 14px;
 }
 .mashtor-item .active{
-  color: #FFB317;
+  color: #C2000C;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -694,7 +668,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #FFB317;
+  color: #C2000C;
   font-size: 18px;
   line-height: 1;
 }
@@ -714,7 +688,7 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #FFB317;
+  color: #C2000C;
 }
 #footer .footer-newsletter {
   font-size: 15px;
@@ -749,30 +723,30 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #FFB317;
+  background: #C2000C;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #FFB317;
+  background: #77090A;
 }
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
 }
 #footer .credits a {
-  color: #FFB317;
+  color: #C2000C;
   transition: 0.3s;
 }
 #footer .credits a:hover {
-  color: #FFB317;
+  color: #C2000C;
 }
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #FFB317;
+  background: #C2000C;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -784,7 +758,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #FFB317;
+  background: #77090A;
   color: #fff;
   text-decoration: none;
 }
