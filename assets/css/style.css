@@ -70,7 +70,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: AvenirNextLTPro-Medium;
 }
-
+hr{
+  margin: 0.5rem 0rem;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -397,6 +399,75 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+/* Logged In Profile */
+.account .dropdown-menu{
+  padding: 0px;
+}
+.account-card{
+  width: 270px;
+}
+.account-card .acc-mng-1{
+  background-color: #FFB317;
+  height: 50px;
+  position: relative;
+}
+.account-card .auth-img{
+  position: absolute;
+  top: 46%;
+  left: 110px;
+}
+.account-card .acc-mng-2{
+  padding-top: 30px;
+}
+.account-card .acc-mng-2 small{
+  font-size: 12px;
+  display: block;
+  
+}
+.account-card .credentials{
+  padding: 0px 15px 10px 15px;
+}
+.account-card .credentials a{
+  color: #6e6e6e;
+  display: block;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.account-card .notification{
+  position: relative;
+}
+
+.account-card .blob {
+  background: #FFB317;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  font-size: 8px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -4px;
+  left: 8px;
+  box-shadow: 0 0 0 0 rgba(255, 189, 23, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 189, 23, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 189, 23, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 189, 23, 0);
+  }
 }
 /*--------------------------------------------------------------
 # Hero Section
