@@ -4,6 +4,47 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+  /**
+   * Sticky Header Navbar
+   */
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky")
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+  /**
+   * Owl Carouse For Course and Mashtors
+   */
+   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:4,
+          nav:true,
+          loop:false
+      }
+    }
+  });
+
+
+
+
 (function() {
   "use strict";
 
@@ -145,20 +186,31 @@
     loop: true
   });
   
-  /**
-   * Sticky Header Navbar
-   */
-    window.onscroll = function() {myFunction()};
-    var header = document.getElementById("header");
-    var sticky = header.offsetTop;
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        header.classList.add("sticky")
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
 
 
+
+    /** 
+     * Owl Carousel For Course And Mashtors
+    */
+    //  $('.owl-carousel').owlCarousel({
+    //   loop:true,
+    //   margin:10,
+    //   responsiveClass:true,
+    //   responsive:{
+    //     0:{
+    //         items:1,
+    //         nav:true
+    //     },
+    //     600:{
+    //         items:3,
+    //         nav:false
+    //     },
+    //     1000:{
+    //         items:4,
+    //         nav:true,
+    //         loop:false
+    //     }
+    //   }
+    // })
 
 })()
